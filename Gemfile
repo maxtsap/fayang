@@ -6,6 +6,8 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'current_user', '~> 0.0.1'
+gem 'angular-rails'
 
 
 # Gems used only for assets and not required

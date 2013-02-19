@@ -1,4 +1,7 @@
 Fayang::Application.routes.draw do
+  mount CurrentUser::Engine => '/current_user'
+
+
   resources :comments
 
 
@@ -6,6 +9,8 @@ Fayang::Application.routes.draw do
 
 
   resources :users
+
+  root :to => "comments#index"
 
 
   # The priority is based upon order of creation:
