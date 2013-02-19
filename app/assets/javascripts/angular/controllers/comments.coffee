@@ -1,0 +1,2 @@
+@CommentsController = ($scope) ->
+
