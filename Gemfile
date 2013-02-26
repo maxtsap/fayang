@@ -7,7 +7,9 @@ gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 gem 'current_user', '~> 0.0.1'
-gem 'angular-rails'
+gem 'private_pub'
+gem 'thin'
+#gem 'angular-rails'
 
 
 # Gems used only for assets and not required

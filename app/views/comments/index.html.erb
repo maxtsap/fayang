@@ -1,5 +1,21 @@
 <h1>Listing comments</h1>
 
+<div ng-controller="PostsController">
+  <form ng-submit="addPost()">
+    <input type="text" ng-model="newPost.title">
+    <input type="text" ng-model="newPost.body">
+    <input type="submit" value="Add">
+  </form>
+  <ul>
+    <li ng-repeat="post in posts">
+        {{post.title}}
+      <div>
+        {{post.body}}
+      </div>
+    </li>
+  </ul>
+</div>
+
 <table>
   <tr>
     <th>Title</th>
